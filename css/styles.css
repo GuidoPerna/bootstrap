@@ -1,0 +1,228 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+/* --- HEADER --- */
+
+header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(16, 16, 16);
+}
+
+body header img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float: left;
+}
+
+h1 {
+    font-size: 2rem;
+    background-color: rgb(16, 16, 16);
+    color: rgba(255, 0, 0, 0.692);
+    text-align: center;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(16, 16, 16);
+    border-style: solid;
+    border-color: rgba(255, 0, 0, 0.692);
+    border-width: 3px;  
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.692);
+}
+
+/* --- MAIN --- */
+
+h3 {
+
+    font-size: 1.5rem;
+    background-color: black;
+    color: rgba(255, 0, 0, 0.692);
+    text-align: center;
+}
+
+#imagenportada {
+    padding: 100px;
+    width: 100%;
+}
+
+#videoplayer{
+    left: 33%;
+    position: relative;
+}
+
+#novedades {
+    color: rgba(255, 0, 0, 0.692);
+    text-align: justify;
+    background-color: black;
+    padding: 200px;
+}
+
+.subtitulos {
+    border: solid 10px black;
+    width: 32%;
+    display: inline-block;
+}
+
+.parrafos{
+    color: rgb(251, 142, 142);
+    text-align: justify;
+    background-size: 1rem;
+    background-color: rgba(105, 105, 105, 0.179);
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+
+
+/* --- FOOTER --- */
+
+
+footer h4{
+    color: red;
+    text-align: center;
+}
+
+footer ul li{
+    text-align: justify;
+    list-style-type: none;
+    display: inline-block;
+    text-decoration:none;
+    background-color: rgba(255, 0, 0, 0.692);
+    object-fit: contain;
+}
+
+footer ul li img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/*---- CONTACTO -----  */
+
+
+
+#formulario{
+    text-align: justify center;
+    box-sizing: border-box;
+    margin: 25px 500px 25px 905px;
+}
+
+form label{
+    color: rgb(251, 142, 142);
+}
+
+form input{
+    height: 35px;
+    font-style: italic;
+}
+
+/* ---- HISTORIA ---- */
+
+
+h2 {
+    color: rgba(255, 0, 0, 0.692);
+    text-align: center;
+    padding: 200px;
+}
+
+.subtitulo-nombres{
+    text-align: left;
+}
+
+.foto-integrante{
+    border-style: solid;
+    border-color: rgba(255, 0, 0, 0.692);
+    border-width: 3px;
+    width: 380px;
+    height: 385px;
+    max-height: 100%;
+    object-fit: contain;
+    float: right;
+    margin: 0px 0px 30px 20px;
+}
+
+.imagenes-miniatura p{
+    text-align: justify;
+    margin: 0px 0px 15px 0px;
+}
+
+#pie {
+    text-align: center;
+}
+
+
+
+/* ---- GALERIA ----- */
+
+
+.galeriaDeFotos{
+    width: 1000px;
+    height: 1000px;
+    display: inline;
+}
+
+.galeriaDeFotos img{
+    padding: 50px;
+    padding-bottom: 0px;
+    border: 100px 500px 100px 500px;
+    max-width: 1000px;
+    height: 1000px;
+    object-fit: contain;
+}
+
+
+/* ---- DISCOGRAFIA ---- */
+
+.discos{
+    display: inline;
+    text-align: justify;
+}
+
+.discos img{
+    padding: 10px;
+    padding-bottom: 10px;
+    border: 100px 500px 100px 500px;
+    width: 50%;
+    height: 50%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.listaDeDiscos{
+    display: inline;
+    font-size: 0.5rem;
+    width: 1000px;
+    
+}
+
+.listaDeDiscos h3{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.listaDeDiscos ul{
+    color: rgb(251, 142, 142);
+    margin: 100px 0px 100px 0px;
+}
+
