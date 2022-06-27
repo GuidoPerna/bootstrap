@@ -31,7 +31,7 @@
     </header>
     
     <main>
-        <div id="formulario">
+        <!-- <div id="formulario">
     <form>
         <label for="nombre">Nombre</label>
             <br>
@@ -60,7 +60,36 @@
         <input type="submit" value="Enviar consulta">
         <input type="reset" value="Borrar">
 
-    </form>
+    </form> -->
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre...">
+      </div>
+      <div>
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="casilla@mail.com" required>
+    </div>
+    <div>
+        <label for="exampleFormControlInput1" class="form-label">Fecha</label>
+        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div>
+        <label for="exampleFormControlInput1" class="form-label">Motivo de contacto</label>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Motivo</option>
+        <option value="1">Integrante</option>
+        <option value="2">Discografía</option>
+        <option value="3">Shows</option>
+      </select>
+    </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        <br>
+      <button type="submit" class="btn btn-light">Enviar</button>
+      <button type="reset" class="btn btn-light" value="reset">Borrar</button>
     </div>
     </main>
 

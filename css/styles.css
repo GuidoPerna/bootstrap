@@ -20,6 +20,10 @@ header {
     background-color: rgb(16, 16, 16);
 }
 
+body{
+    background-color: black;
+}
+
 body header img {
     height: 100px;
     width: 100px;
@@ -125,6 +129,7 @@ footer ul li img {
     text-align: justify center;
     box-sizing: border-box;
     margin: 25px 500px 25px 905px;
+    background-color: black;
 }
 
 form label {
