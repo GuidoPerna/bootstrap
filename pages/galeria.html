@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap" rel="stylesheet">
@@ -15,46 +18,99 @@
     <header>
         <img src="../images/logo.jpg" alt="logo de la banda">
         <h1>Galería</h1>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a> </li>
-                    <li><a href="./historia.html">Historia de la banda</a> </li>
-                    <li><a href="./discos.html">Discografía</a> </li>
-                    <li><a href="./galeria.html">Galería</a> </li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="#pie">Redes sociales</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a> </li>
+                <li><a href="./historia.html">Historia de la banda</a> </li>
+                <li><a href="./discos.html">Discografía</a> </li>
+                <li><a href="./galeria.html">Galería</a> </li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="#pie">Redes sociales</a></li>
+            </ul>
+        </nav>
     </header>
 
-    
-    <main>
-        <div class="galeriaDeFotos">
-        <img src="../images/galeria/rhcp1.jpg" alt="">
-        <img src="../images/galeria/rhcp2.jpg" alt="">
-        <img src="../images/galeria/rhcp3.jpg" alt="">
-        <img src="../images/galeria/rhcp4.jpg" alt="">
-        <img src="../images/galeria/rhcp5.jpg" alt="">
-        <img src="../images/galeria/rhcp6.jpg" alt="">
-        <img src="../images/galeria/rhcp7.jpg" alt="">
-        <img src="../images/galeria/rhcp8.jpg" alt="">
-        <img src="../images/galeria/rhcp9.jpg" alt="">
-        <img src="../images/galeria/rhcp91.jpg" alt="">    
-        </div>
-    </main>
+    <body>
 
-    <footer id="pie">
-        <div>
-            <h4>Redes sociales</h4>
+        <main>
+            <!-- <div class="galeriaDeFotos">
+                <img src="../images/galeria/rhcp1.jpg" alt="">
+                <img src="../images/galeria/rhcp2.jpg" alt="">
+                <img src="../images/galeria/rhcp3.jpg" alt="">
+                <img src="../images/galeria/rhcp4.jpg" alt="">
+                <img src="../images/galeria/rhcp5.jpg" alt="">
+                <img src="../images/galeria/rhcp6.jpg" alt="">
+                <img src="../images/galeria/rhcp7.jpg" alt="">
+                <img src="../images/galeria/rhcp8.jpg" alt="">
+                <img src="../images/galeria/rhcp9.jpg" alt="">
+                <img src="../images/galeria/rhcp91.jpg" alt="">
+            </div> -->
+
+            <div id="carouselExampleControls" class="carousel slide container-md" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../images/galeria/rhcp1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/galeria/rhcp2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/galeria/rhcp3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/galeria/rhcp4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/galeria/rhcp5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/galeria/rhcp6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/galeria/rhcp7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/galeria/rhcp8.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/galeria/rhcp9.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/galeria/rhcp91.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </main>
+
+
+        <footer id="pie">
+            <div>
+                <h4>Redes sociales</h4>
                 <ul>
-                    <li><a href="https://www.twitter.com/chilipeppers" target="_blank"><img src="../images/redes/twitter.png" alt="logo twitter"></a></li>
-                    <li><a href="https://www.instagram.com/chilipeppers/" target="_blank"><img src="../images/redes/instragram.png" alt="logo instagram"></a></li>
-                    <li><a href="https://www.facebook.com/ChiliPeppers/" target="_blank"><img src="../images/redes/facebook.png" alt="logo facebook"></a></li>
-                    <li><a href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5" target="_blank"><img src="../images/redes/spotify.png" alt="logo spotify"></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig" target="_blank"><img src="../images/redes/youtube.png" alt="logo youtube"></a></li>
+                    <li><a href="https://www.twitter.com/chilipeppers" target="_blank"><img
+                                src="../images/redes/twitter.png" alt="logo twitter"></a></li>
+                    <li><a href="https://www.instagram.com/chilipeppers/" target="_blank"><img
+                                src="../images/redes/instragram.png" alt="logo instagram"></a></li>
+                    <li><a href="https://www.facebook.com/ChiliPeppers/" target="_blank"><img
+                                src="../images/redes/facebook.png" alt="logo facebook"></a></li>
+                    <li><a href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5" target="_blank"><img
+                                src="../images/redes/spotify.png" alt="logo spotify"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig" target="_blank"><img
+                                src="../images/redes/youtube.png" alt="logo youtube"></a></li>
                 </ul>
-        </div>
-    </footer>
-    
-</body>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+    </body>
+
 </html>
